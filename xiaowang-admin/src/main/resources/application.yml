@@ -1,0 +1,30 @@
+server:
+  port: 8989
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/xw_blog?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+mybatis-plus:
+#  configuration:
+#    # 日志
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-field: delFlag
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+      id-type: auto
+aliyun:
+  #阿里云OSS配置
+  accessKeyId: LTAI5tFfFgBsCKaFpS3B8J98
+  accessKeySecret: REKgEZVLDTwZfjXpcUkAycoGmKl10m
+  endpoint: oss-cn-chengdu.aliyuncs.com
+  bucketName: xwblog
+  url: https://xwblog.oss-cn-chengdu.aliyuncs.com/

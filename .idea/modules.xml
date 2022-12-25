@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/XWBlog.iml" filepath="$PROJECT_DIR$/XWBlog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaowang-admin/xiaowang-admin.iml" filepath="$PROJECT_DIR$/xiaowang-admin/xiaowang-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaowang-blog/xiaowang-blog.iml" filepath="$PROJECT_DIR$/xiaowang-blog/xiaowang-blog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xiaowang-framework/xiaowang-framework.iml" filepath="$PROJECT_DIR$/xiaowang-framework/xiaowang-framework.iml" />
+    </modules>
+  </component>
+</project>
